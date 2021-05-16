@@ -1,0 +1,60 @@
+#            _  _  _                _   
+#  ___ __ _ (_)| || |__  ___  __ _ | |_ 
+# (_-</ _` || || || '_ \/ _ \/ _` ||  _|
+# /__/\__,_||_||_||_.__/\___/\__,_| \__|
+                                      
+# Basic Setup:
+name = "Test_3"
+short_name = "test3_pycon"
+email = "cole@colewilson.xyz"
+author = "COle Wilson"
+short_description = "short"
+description = "long"
+url = "https://github.com"
+keywords = "kw1 kw2"
+license = "none"
+latest_build = "0.0.2"
+release-notes = "Initial Release"
+latest_release = "0.0.1"
+
+
+# Resource Setup:
+[resources]
+icns = ""
+data_files = []
+modules = []
+file = "main.py"
+no_import = []
+
+
+# Plugin Commands:
+
+
+# Build Routines:
+[build.homebrew]
+
+[build.pyinstaller]
+type = 1
+mac = true
+windows = true
+unix = true
+bundle_id = "com.colewilson.test3_pycon"
+
+[build.actions]
+
+[build.pypi.commands]
+hello = ""
+
+[build.pypi.entry_points]
+
+
+# Release Routines:
+
+
+# Other:
+[git]
+github = "cole-wilson/pycontest_3"
+brew = "cole-wilson/homebrew-taps"
+
+
+# Thank you for using Sailboat!

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>CFBundleDevelopmentRegion</key>
+ <string>en-US</string>
+
+ <!-- Executable Name:-->
+ <key>CFBundleExecutable</key>
+ <string>Test3</string>
+
+ <!-- Icon File-->
+ <key>CFBundleIconFile</key>
+ <string>icon.icns</string>
+
+ <!-- Bundle ID-->
+ <key>CFBundleIdentifier</key>
+ <string>com.colewilson.test3_pycon</string>
+
+ <!-- Versions-->
+ <key>CFBundleInfoDictionaryVersion</key>
+ <string>6.0</string>
+ <key>CFBundleVersion</key>
+ <string>0.0.2</string>
+ <key>CFBundleShortVersionString</key>
+ <string>0.0.2</string>
+
+ <!-- Names-->
+ <key>CFBundleName</key>
+ <string>test3_pycon</string>
+ <key>CFBundleDisplayName</key>
+ <string>Test_3</string>
+
+ <!-- Other-->
+ <key>CFBundlePackageType</key>
+ <string>APPL</string>
+ <key>CFBundleSignature</key>
+ <string>????</string>
+ <key>NSPrincipalClass</key>
+ <string>NSApplication</string>
+</dict>
+</plist>
